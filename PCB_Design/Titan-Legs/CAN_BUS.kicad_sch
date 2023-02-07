@@ -221,6 +221,7 @@
   )
 
 
+
   (no_connect (at 151.13 101.6) (uuid 760591a2-d395-47b5-ab07-33e210f49c0f))
 
   (wire (pts (xy 170.18 90.17) (xy 170.18 95.25))
@@ -288,14 +289,6 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 66a7d7eb-29df-45c0-961b-590d3230a179)
   )
-  (label "3V3" (at 170.18 90.17 270)
-    (effects (font (size 1 1)) (justify right bottom))
-    (uuid 6b8ab3a9-70c7-4a3b-ac9e-116c040a7f26)
-  )
-  (label "3V3" (at 153.67 88.9 180)
-    (effects (font (size 1 1)) (justify right bottom))
-    (uuid 960d255b-5f6a-4d7b-921a-ec19918de822)
-  )
   (label "CANL" (at 153.67 96.52 180)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid a0894ea9-3fee-417a-a5d6-6569949e7771)
@@ -317,14 +310,14 @@
     (uuid c6ff041c-a5f7-42e2-84cd-5b54f5f480a1)
   )
 
-  (global_label "3V3" (shape input) (at 153.67 88.9 0) (fields_autoplaced)
+  (hierarchical_label "3V3" (shape input) (at 153.67 88.9 0)
     (effects (font (size 1 1)) (justify left))
-    (uuid d5d7d3b9-2b7c-456e-acc0-a18d8704ddf1)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 158.3319 88.8375 0)
-      (effects (font (size 1 1)) (justify left) hide)
-    )
+    (uuid 0c563038-943e-4585-8eab-8fe1a314f088)
   )
-
+  (hierarchical_label "3V3" (shape input) (at 170.18 90.17 90)
+    (effects (font (size 1 1)) (justify left))
+    (uuid 4fe1a7ed-48bc-4589-9e2a-43eb41034df2)
+  )
   (hierarchical_label "D" (shape input) (at 113.03 93.98 180)
     (effects (font (size 1 1)) (justify right))
     (uuid 8c33f9de-815a-4b66-9661-8df6df7f0232)
