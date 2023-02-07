@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "ESP32-S3-WROOM-1")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/ESP32-S3_NEW/ESP32-S3-WROOM-1.kicad_sym")(options "")(descr ""))
+  (lib (name "TPH1R204PL1_LQ")(type "Legacy")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/MOSFETS/TPH1R204PL1-LQ/TPH1R204PL1,LQ/KiCad/TPH1R204PL1_LQ.lib")(options "")(descr ""))
+)

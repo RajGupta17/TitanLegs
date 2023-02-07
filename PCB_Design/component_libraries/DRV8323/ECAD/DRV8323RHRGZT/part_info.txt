@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=DRV8323RHRGZT
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=49
+Version=1.1
+Released=2019-05-25 06:55:09
+Downloaded=2023-01-24 17:35:58
+3D=Y

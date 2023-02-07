@@ -1,0 +1,16 @@
+.BSC031N06NS3GATMA1 :1 ;Infineon BSC031N06NS3GATMA1 N-channel MOSFET, 100 A, 60 V OptiMOS 3, 8-Pin TDSON
+PG-TDSON-8_1
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4"
+*MXP 9
+*DFN BSC031N06NS3GATMA1
+~!Arrow Part Number (BSC031N06NS3GATMA1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/bsc031n06ns3gatma1/infineon-technologies-ag)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (BSC031N06NS3GATMA1)
+~!Link Datasheet (https://www.arrow.com/en/products/bsc031n06ns3gatma1/infineon-technologies-ag)
+~!Height (-)
+~!3D_Model (BSC031N06NS3GATMA1)
+BSC031N06NS3GATMA1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

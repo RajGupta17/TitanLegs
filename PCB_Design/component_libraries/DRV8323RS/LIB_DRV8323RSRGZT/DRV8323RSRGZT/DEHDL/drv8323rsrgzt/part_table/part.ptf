@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DRV8323RSRGZT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "DRV8323RSRGZT" (!) = "", "QFN50P700X700X100-49N-D", "Quad Flat No-Lead", "595-DRV8323RSRGZT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8323RSRGZT?qs=Mv7BduZupUh8uglXmMY%2FjA%3D%3D", "DRV8323RSRGZT", "https://www.arrow.com/en/products/drv8323rsrgzt/texas-instruments?region=nac", "", "", "60V Three-Phase Smart Gate Driver With Buck Regulator and Three Current Shunt Amplifiers", "http://www.ti.com/lit/ds/symlink/drv8323.pdf", "1 mm"
+END_PART
+
+END.

@@ -1,0 +1,152 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BSC031N06NS3GATMA1"
+   (description "Infineon BSC031N06NS3GATMA1 N-channel MOSFET, 100 A, 60 V OptiMOS 3, 8-Pin TDSON")
+   (family "TRX")
+   (package "PG-TDSON-8_1")
+   (attribute "Datasheet Link" "https://www.arrow.com/en/products/bsc031n06ns3gatma1/infineon-technologies-ag")
+   (attribute "Arrow Part Number" "BSC031N06NS3GATMA1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/bsc031n06ns3gatma1/infineon-technologies-ag")
+   (attribute "Manufacturer_Name" "Infineon")
+   (attribute "Manufacturer_Part_Number" "BSC031N06NS3GATMA1")
+   (gate
+    (symbol "BSC031N06NS3GATMA1")
+    (pin "S_1" 1 PS)
+    (pin "S_2" 2 PS)
+    (pin "S_3" 3 PS)
+    (pin "G" 4 PS)
+    (pin "D_1" 5 PS)
+    (pin "D_2" 6 PS)
+    (pin "D_3" 7 PS)
+    (pin "D_4" 8 PS)
+   )
+  )
+  (symbol "BSC031N06NS3GATMA1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PG-TDSON-8_1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -2.95 2.575)
+      (pt 2.95 2.575)
+      (pt 2.95 -2.575)
+      (pt -2.95 -2.575)
+      (pt -2.95 2.575))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -2.95 2.575)
+      (pt 2.95 2.575))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 2.95 -2.575)
+      (pt -2.95 -2.575))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt 3.77189 -1.872) (pt 3.84611 -1.872)
+     )
+    )
+   )
+   (leg 1 (pt 2.834 -1.905) (padstack 1))
+   (leg 2 (pt 2.834 -0.635) (padstack 2))
+   (leg 3 (pt 2.834 0.635) (padstack 3))
+   (leg 4 (pt 2.834 1.905) (padstack 4))
+   (leg 5 (pt -3.135 1.99999) (padstack 0))
+   (leg 6 (pt -3.135 0.66666) (padstack 0))
+   (leg 7 (pt -3.135 -0.66667) (padstack 0))
+   (leg 8 (pt -3.135 -2) (padstack 0))
+   (leg 9 (pt -0.635 0) (padstack 9))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.5 0.7 0 0 90))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.2 0 0 0))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.2 0 0 0))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.2 0 0 0))
+   )
+   (padstack 4
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.2 0 0 0))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 4.5 4.7 0 0 90))
+   )
+   (model "BSC031N06NS3GATMA1.stp"
+    (euler 90 0 -90)
+    (offset 0.33000001311302185 0 0)
+   )
+  )
+ )
+)

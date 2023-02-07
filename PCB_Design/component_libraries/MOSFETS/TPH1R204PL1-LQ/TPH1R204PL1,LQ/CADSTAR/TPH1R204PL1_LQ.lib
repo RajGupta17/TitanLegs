@@ -1,0 +1,20 @@
+.TPH1R204PL1_LQ :1 ;N-Channel 40V 150A (Tc) 960mW (Ta), 170W (Tc) Surface Mount 8-SOP
+TPH1R204PL1LQ
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4" 9="D_5"
+*MXP 9
+*DFN TPH1R204PL1_LQ
+~!Manufacturer_Name (Toshiba)
+~!Manufacturer_Part_Number (TPH1R204PL1,LQ)
+~!Mouser Part Number (757-TPH1R204PL1LQ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Toshiba/TPH1R204PL1LQ?qs=QNEnbhJQKvYFRTuBxmYUXQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://toshiba.semicon-storage.com/info/docget.jsp?did=69120&prodName=TPH1R204PL1)
+~!Height (1.1mm)
+~!3D_Model (TPH1R204PL1,LQ)
+TPH1R204PL1_LQ
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

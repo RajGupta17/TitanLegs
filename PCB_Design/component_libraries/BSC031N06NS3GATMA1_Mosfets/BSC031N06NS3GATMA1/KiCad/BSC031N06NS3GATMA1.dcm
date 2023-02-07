@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSC031N06NS3GATMA1
+D Infineon BSC031N06NS3GATMA1 N-channel MOSFET, 100 A, 60 V OptiMOS 3, 8-Pin TDSON
+K
+F https://www.arrow.com/en/products/bsc031n06ns3gatma1/infineon-technologies-ag
+$ENDCMP
+#
+#End Doc Library
