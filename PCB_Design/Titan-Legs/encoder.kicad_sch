@@ -223,6 +223,7 @@
     )
   )
 
+
   (junction (at 139.7 77.47) (diameter 0) (color 0 0 0 0)
     (uuid 5e998671-8d95-46ad-be20-c4a930205095)
   )
@@ -403,7 +404,7 @@
     (uuid 124cb5ee-9827-4498-8534-b6cd5d21b22f)
     (property "Reference" "U2" (id 0) (at 121.92 71.12 0))
     (property "Value" "AS5047P-ATSM" (id 1) (at 121.92 73.66 0))
-    (property "Footprint" "SOP65P640X120-14N" (id 2) (at 121.92 92.71 0)
+    (property "Footprint" "ENCODER:SOP65P640X120-14N" (id 2) (at 121.92 92.71 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 121.92 92.71 0)
@@ -443,7 +444,7 @@
     (property "Value" "0.1uF" (id 1) (at 171.45 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 168.8592 93.98 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 168.8592 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 167.894 90.17 0)

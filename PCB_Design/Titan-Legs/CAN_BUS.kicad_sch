@@ -221,6 +221,7 @@
   )
 
 
+
   (no_connect (at 151.13 101.6) (uuid 760591a2-d395-47b5-ab07-33e210f49c0f))
 
   (wire (pts (xy 170.18 90.17) (xy 170.18 95.25))
@@ -371,7 +372,7 @@
     (property "Value" "0.1uF" (id 1) (at 168.91 105.41 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 171.1452 102.87 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 171.1452 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 99.06 0)
@@ -390,7 +391,7 @@
     (property "Value" "10K" (id 1) (at 110.49 104.14 90)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 108.712 102.87 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 108.712 102.87 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 110.49 102.87 0)
@@ -423,7 +424,7 @@
     (uuid 8593b77f-2b7e-4641-ac14-633906214e4b)
     (property "Reference" "U3" (id 0) (at 133.35 81.534 0))
     (property "Value" "SN65HVD230DR" (id 1) (at 133.35 84.074 0))
-    (property "Footprint" "SOIC127P599X175-8N" (id 2) (at 133.35 99.06 0)
+    (property "Footprint" "CAN-BUS-IC:SOIC127P599X175-8N" (id 2) (at 133.35 99.06 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 133.35 99.06 0)
@@ -448,7 +449,7 @@
     (property "Value" "282837-2" (id 1) (at 86.36 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TE_282837-2" (id 2) (at 82.55 97.79 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 82.55 97.79 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 82.55 97.79 0)
