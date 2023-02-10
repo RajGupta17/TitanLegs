@@ -1,0 +1,135 @@
+
+(EDIF
+  (rename &ESDM3051MXT5G "ESDM3051MXT5G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 02 10 17 48 48)
+      (dataOrigin "997486/1047187/2.49/2/3/TVS Diode (Bi-directional)")
+      (program "SamacSys ECAD Model ESDM3051MXT5G"
+        (version "2.6"))))
+  (library
+  (rename &ESDM3051MXT5G "ESDM3051MXT5G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &ESDM3051MXT5G "ESDM3051MXT5G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename PACKAGENAME "PackageName") (string "ESDM3051MXT5G"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "ESDM3051MXT5G"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "ESDM3051MXT5G"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/esdm3051mxt5g/on-semiconductor"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "onsemi"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "ESDM3051MXT5G"))
+          (property (rename &Description "Description") (string "7.5V (Typ) Clamp 9.9A (8/20s) Ipp Tvs Diode Surface Mount 2-X3DFN (0.6x0.3) (0201)"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.arrow.com/en/products/esdm3051mxt5g/on-semiconductor"))
+          (property (rename &Height "Height") (string "0.33 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "ESDM3051MXT5G"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -100) (pt 600 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 0 -200)
+                  (pt 0 0)
+                  (pt 200 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 400 -200)
+                  (pt 400 0)
+                  (pt 200 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -180)
+                  (pt 200 -20)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 160 0)
+                  (pt 200 -20)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -180)
+                  (pt 240 -200)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 300 180))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 300 80))))
+          )
+        )
+      )
+    )
+  )
+)

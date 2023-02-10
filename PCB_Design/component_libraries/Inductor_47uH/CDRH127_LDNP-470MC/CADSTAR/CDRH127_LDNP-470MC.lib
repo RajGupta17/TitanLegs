@@ -1,0 +1,20 @@
+.CDRH127_LDNP-470MC :1 ;Fixed Inductors 47uH 3.25A
+INDPM120120X800N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CDRH127_LDNP-470MC
+~!Manufacturer_Name (Sumida)
+~!Manufacturer_Part_Number (CDRH127/LDNP-470MC)
+~!Mouser Part Number (851-CDRH127LDNP470MC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Sumida/CDRH127-LDNP-470MC?qs=DrDMc5cg91OBCptfPhw%252Bdw%3D%3D)
+~!Arrow Part Number (CDRH127/LDNP-470MC)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cdrh127ldnp-470mc/sumida)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://products.sumida.com/products/pdf/CDRH127LD.pdf)
+~!Height (8mm)
+~!3D_Model (CDRH127_LDNP-470MC)
+CDRH127_LDNP-470MC
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDM3051MXT5G
+D 7.5V (Typ) Clamp 9.9A (8/20s) Ipp Tvs Diode Surface Mount 2-X3DFN (0.6x0.3) (0201)
+K
+F https://www.arrow.com/en/products/esdm3051mxt5g/on-semiconductor
+$ENDCMP
+#
+#End Doc Library
