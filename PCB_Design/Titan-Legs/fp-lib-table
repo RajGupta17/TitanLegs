@@ -4,4 +4,8 @@
   (lib (name "Inductor_47uH")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/Inductor_47uH/CDRH127_LDNP-470MC/KiCad")(options "")(descr ""))
   (lib (name "SW_TL1015AF160QG")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/SW_TL1015AF160QG")(options "")(descr ""))
   (lib (name "LESD_diode")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/diodes_USB-UART/LESD5D5.0CT1G/KiCad")(options "")(descr ""))
+  (lib (name "SS34_NEW")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/SS34_NEW/SS34/KiCad")(options "")(descr ""))
+  (lib (name "TB - 3")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/Terminal Block - 3/1546216-3/KiCad")(options "")(descr ""))
+  (lib (name "Resistor_6.4mm_3.2mm_1.2mm_pads")(type "KiCad")(uri "${KIPRJMOD}/Resistor_6.4mm_3.2mm_1.2mm_pads.pretty")(options "")(descr ""))
+  (lib (name "NEW_Mosfets")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/NEW_Mosfets")(options "")(descr ""))
 )

@@ -1336,6 +1336,7 @@
     )
   )
 
+
   (junction (at 24.765 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 02796a6e-0280-40fa-a6d3-0e4afa1bea01)
   )
@@ -2603,7 +2604,7 @@
     (effects (font (size 3 3) bold) (justify left bottom))
     (uuid 7f6279fd-759c-42de-82f7-a00858107160)
   )
-  (text "DRV8323RH\n\n" (at 114.554 132.08 0)
+  (text "DRV8323RS\n\n" (at 114.554 132.08 0)
     (effects (font (size 3.5 3.5) bold) (justify left bottom))
     (uuid 8b484f47-03af-40aa-a037-9a6417fcc1ab)
   )
@@ -2636,7 +2637,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 06f511d6-0e14-4df3-a18d-566b449c420b)
   )
-  (label "D1" (at 271.78 138.43 180)
+  (label "DC1" (at 271.78 138.43 180)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 077d488e-5e1c-41e6-b6bd-a95960cce229)
   )
@@ -2752,7 +2753,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 4c15c7ca-d595-447b-843e-663eee294a68)
   )
-  (label "D3" (at 271.78 148.59 180)
+  (label "DC3" (at 271.78 148.59 180)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 52a81143-3a6a-4042-a056-85c56112f205)
   )
@@ -2792,7 +2793,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 67223509-8c21-4e19-b5bc-01a8de1eec71)
   )
-  (label "D2" (at 271.78 140.97 180)
+  (label "DC2" (at 271.78 140.97 180)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 6d681ff1-a464-4f86-8638-3cb98b4b4a98)
   )
@@ -2824,7 +2825,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 81371c04-7a68-4eea-a9fc-29934d5747a4)
   )
-  (label "D1" (at 170.18 124.46 270)
+  (label "DC1" (at 170.18 124.46 270)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 81cac5b5-9314-47c5-8f55-d90e5c06efb1)
   )
@@ -2836,7 +2837,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 8444855d-0a8b-45f1-aae4-9bc76e99040e)
   )
-  (label "D3" (at 191.77 124.46 270)
+  (label "DC3" (at 191.77 124.46 270)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 8478919e-4449-4cc3-972b-d136f65d6ea3)
   )
@@ -2980,7 +2981,7 @@
     (effects (font (size 1 1)) (justify right bottom))
     (uuid f3e5a1e6-e6b1-42b2-ab39-089f0308fd2c)
   )
-  (label "D2" (at 180.975 124.46 270)
+  (label "DC2" (at 180.975 124.46 270)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid f57fa5ac-25cd-46aa-b1b5-79c822b7c078)
   )
@@ -4047,7 +4048,7 @@
     (uuid a872eb23-f7b7-4f71-9aa4-4605e4cbbd2b)
     (property "Reference" "D1" (id 0) (at 28.194 104.648 0))
     (property "Value" "D" (id 1) (at 27.94 110.744 0))
-    (property "Footprint" "SS34:DIOM7959X265N" (id 2) (at 28.194 108.204 0)
+    (property "Footprint" "SS34_NEW:DIOM8059X256N" (id 2) (at 28.194 108.204 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 28.194 108.204 0)
@@ -4558,7 +4559,7 @@
     (property "Value" "790mV" (id 1) (at 75.565 166.37 90)
       (effects (font (size 0.9 0.9)) (justify left))
     )
-    (property "Footprint" "SS34:DIOM7959X265N" (id 2) (at 81.28 163.83 0)
+    (property "Footprint" "SS34_NEW:DIOM8059X256N" (id 2) (at 81.28 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 81.28 163.83 0)
@@ -4947,7 +4948,7 @@
       (reference "C33") (unit 1) (value "330uF") (footprint "Capacitor_SMD:CP_Elec_8x10")
     )
     (path "/a872eb23-f7b7-4f71-9aa4-4605e4cbbd2b"
-      (reference "D1") (unit 1) (value "D") (footprint "SS34:DIOM7959X265N")
+      (reference "D1") (unit 1) (value "D") (footprint "SS34_NEW:DIOM8059X256N")
     )
     (path "/4baa8b09-ecfb-4dcc-8570-d6fc2395af66"
       (reference "D2") (unit 1) (value "LESD5D5.0CT1G") (footprint "LESD_diode:LESD5D50CT1G")
@@ -4962,7 +4963,7 @@
       (reference "D5") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/fddf2939-6581-4168-83e6-bfc5e62b7a8a"
-      (reference "D_Zener1") (unit 1) (value "790mV") (footprint "SS34:DIOM7959X265N")
+      (reference "D_Zener1") (unit 1) (value "790mV") (footprint "SS34_NEW:DIOM8059X256N")
     )
     (path "/b23984b5-9f54-4356-8a16-c3212b50a2a0/168619e9-c663-4616-a034-eddd892637d1"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4mm")
@@ -4988,8 +4989,8 @@
     (path "/6d0282b2-1a2b-401e-8e57-19dabb37d3cf"
       (reference "J1") (unit 1) (value "TYPE-C-31-M-12") (footprint "usb c:HRO_TYPE-C-31-M-12")
     )
-    (path "/983771df-a9d8-4c95-b2f8-7263116735ed/9cd07df7-0145-436a-ac32-bb079982c303"
-      (reference "J2") (unit 1) (value "1986660-3") (footprint "3x Terminal Block:TE_1986660-3")
+    (path "/983771df-a9d8-4c95-b2f8-7263116735ed/b6301286-c4e8-4c45-84e6-70bfa4923d27"
+      (reference "J2") (unit 1) (value "1546216-3") (footprint "TB - 3:15462163")
     )
     (path "/32bf2d91-ca5e-4e05-87bc-9c7a4f82f965"
       (reference "L2") (unit 1) (value "47uH") (footprint "Inductor_47uH:INDPM120120X800N")
@@ -5052,13 +5053,13 @@
       (reference "R13") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/983771df-a9d8-4c95-b2f8-7263116735ed/1616499b-6a69-425e-b8fa-e342d6d49a89"
-      (reference "R14") (unit 1) (value "0.5m") (footprint "3x Terminal Block:0.5m_resistor")
+      (reference "R14") (unit 1) (value "0.5m") (footprint "Resistor_6.4mm_3.2mm_1.2mm_pads:R_0.5m")
     )
     (path "/983771df-a9d8-4c95-b2f8-7263116735ed/1708bd84-fbd1-43a0-bf47-73fde1f53fcd"
-      (reference "R15") (unit 1) (value "0.5m") (footprint "3x Terminal Block:0.5m_resistor")
+      (reference "R15") (unit 1) (value "0.5m") (footprint "Resistor_6.4mm_3.2mm_1.2mm_pads:R_0.5m")
     )
     (path "/983771df-a9d8-4c95-b2f8-7263116735ed/e776fb65-2a9b-4a83-89c7-138c132d3c1a"
-      (reference "R16") (unit 1) (value "0.5m") (footprint "3x Terminal Block:0.5m_resistor")
+      (reference "R16") (unit 1) (value "0.5m") (footprint "Resistor_6.4mm_3.2mm_1.2mm_pads:R_0.5m")
     )
     (path "/983771df-a9d8-4c95-b2f8-7263116735ed/8a826e4e-2fbc-4ff3-8fa2-79566921b526"
       (reference "R17") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric")

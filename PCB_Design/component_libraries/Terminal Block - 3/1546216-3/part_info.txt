@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1546216-3
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2020-04-12 12:34:02
+Downloaded=2023-02-10 18:52:57
+3D=Y
