@@ -1336,7 +1336,6 @@
     )
   )
 
-
   (junction (at 24.765 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 02796a6e-0280-40fa-a6d3-0e4afa1bea01)
   )
@@ -3192,10 +3191,10 @@
   )
 
   (symbol (lib_id "CP2102_new:CP2102") (at 229.87 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 10648ed1-bc3e-479b-aa47-bc64a73e1e0b)
     (property "Reference" "IC2" (id 0) (at 262.89 62.0012 0))
-    (property "Value" "CP2102" (id 1) (at 262.89 64.5412 0))
+    (property "Value" "CP2102" (id 1) (at 245.5164 64.3636 0))
     (property "Footprint" "CP2102:QFN50P500X500X100-29N" (id 2) (at 259.08 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -4048,7 +4047,7 @@
     (uuid a872eb23-f7b7-4f71-9aa4-4605e4cbbd2b)
     (property "Reference" "D1" (id 0) (at 28.194 104.648 0))
     (property "Value" "D" (id 1) (at 27.94 110.744 0))
-    (property "Footprint" "SS34_NEW:DIOM8059X256N" (id 2) (at 28.194 108.204 0)
+    (property "Footprint" "Diode_SMD:D_SMB" (id 2) (at 28.194 108.204 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 28.194 108.204 0)
@@ -4559,7 +4558,7 @@
     (property "Value" "790mV" (id 1) (at 75.565 166.37 90)
       (effects (font (size 0.9 0.9)) (justify left))
     )
-    (property "Footprint" "SS34_NEW:DIOM8059X256N" (id 2) (at 81.28 163.83 0)
+    (property "Footprint" "Diode_SMD:D_SMB" (id 2) (at 81.28 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 81.28 163.83 0)
@@ -4645,11 +4644,11 @@
     )
   )
 
-  (sheet (at 13.97 124.206) (size 14.224 6.096) (fields_autoplaced)
+  (sheet (at 13.97 122.5804) (size 19.05 7.7216) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid b23984b5-9f54-4356-8a16-c3212b50a2a0)
-    (property "Sheet name" "Miscellaneous" (id 0) (at 13.97 123.6294 0)
+    (property "Sheet name" "Miscellaneous" (id 0) (at 13.97 122.0038 0)
       (effects (font (size 1 1)) (justify left bottom))
     )
     (property "Sheet file" "untitled.kicad_sch" (id 1) (at 13.97 130.8866 0)
@@ -4839,6 +4838,9 @@
     (path "/983771df-a9d8-4c95-b2f8-7263116735ed/868e85c1-0a7d-4854-8977-ae287e2dddee"
       (reference "#PWR031") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b23984b5-9f54-4356-8a16-c3212b50a2a0/d3b545ad-427d-4143-b793-c05764b9bf4b"
+      (reference "#PWR032") (unit 1) (value "GND") (footprint "")
+    )
     (path "/983771df-a9d8-4c95-b2f8-7263116735ed/07378506-2595-4739-920b-b13951bf4ab8"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
@@ -4948,7 +4950,7 @@
       (reference "C33") (unit 1) (value "330uF") (footprint "Capacitor_SMD:CP_Elec_8x10")
     )
     (path "/a872eb23-f7b7-4f71-9aa4-4605e4cbbd2b"
-      (reference "D1") (unit 1) (value "D") (footprint "SS34_NEW:DIOM8059X256N")
+      (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_SMB")
     )
     (path "/4baa8b09-ecfb-4dcc-8570-d6fc2395af66"
       (reference "D2") (unit 1) (value "LESD5D5.0CT1G") (footprint "LESD_diode:LESD5D50CT1G")
@@ -4963,7 +4965,7 @@
       (reference "D5") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/fddf2939-6581-4168-83e6-bfc5e62b7a8a"
-      (reference "D_Zener1") (unit 1) (value "790mV") (footprint "SS34_NEW:DIOM8059X256N")
+      (reference "D_Zener1") (unit 1) (value "790mV") (footprint "Diode_SMD:D_SMB")
     )
     (path "/b23984b5-9f54-4356-8a16-c3212b50a2a0/168619e9-c663-4616-a034-eddd892637d1"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4mm")
@@ -4989,8 +4991,8 @@
     (path "/6d0282b2-1a2b-401e-8e57-19dabb37d3cf"
       (reference "J1") (unit 1) (value "TYPE-C-31-M-12") (footprint "usb c:HRO_TYPE-C-31-M-12")
     )
-    (path "/983771df-a9d8-4c95-b2f8-7263116735ed/b6301286-c4e8-4c45-84e6-70bfa4923d27"
-      (reference "J2") (unit 1) (value "1546216-3") (footprint "TB - 3:15462163")
+    (path "/983771df-a9d8-4c95-b2f8-7263116735ed/746a919e-2f11-486a-a80b-acf27035996c"
+      (reference "J2") (unit 1) (value "691214110003") (footprint "TerminalBlock:TerminalBlock_bornier-3_P5.08mm")
     )
     (path "/32bf2d91-ca5e-4e05-87bc-9c7a4f82f965"
       (reference "L2") (unit 1) (value "47uH") (footprint "Inductor_47uH:INDPM120120X800N")
@@ -5045,6 +5047,9 @@
     )
     (path "/3bbdef38-e092-4205-8641-a95f347e4dc0"
       (reference "R9") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/b23984b5-9f54-4356-8a16-c3212b50a2a0/ca410c7b-44b9-4164-b021-bbf1896d7bc4"
+      (reference "R10") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/68a33b1b-c5a4-46e0-8867-0ecbab278f47"
       (reference "R12") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -5102,6 +5107,9 @@
     )
     (path "/0d27049a-3ba4-4cf7-af8a-47d969341c74"
       (reference "U4") (unit 1) (value "AMS1117-3.3") (footprint "AMS1117-3:SOT229P700X180-4N")
+    )
+    (path "/b23984b5-9f54-4356-8a16-c3212b50a2a0/dcf18123-7947-4cff-84e3-a1720bc41cab"
+      (reference "U5") (unit 1) (value "DS18S20Z+") (footprint "Temp-Sensor_DS18S20Z_:DS18S20Z_")
     )
   )
 )

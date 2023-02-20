@@ -8,4 +8,8 @@
   (lib (name "TB - 3")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/Terminal Block - 3/1546216-3/KiCad")(options "")(descr ""))
   (lib (name "Resistor_6.4mm_3.2mm_1.2mm_pads")(type "KiCad")(uri "${KIPRJMOD}/Resistor_6.4mm_3.2mm_1.2mm_pads.pretty")(options "")(descr ""))
   (lib (name "NEW_Mosfets")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/NEW_Mosfets")(options "")(descr ""))
+  (lib (name "NEW TERMINAL BLOCK X3")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/NEW TERMINAL BLOCK X3")(options "")(descr ""))
+  (lib (name "NEW_Inductor_47uH")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/NEW_Inductor_47uH")(options "")(descr ""))
+  (lib (name "SS34 LATEst")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/SS34 LATEst")(options "")(descr ""))
+  (lib (name "Temp-Sensor_DS18S20Z_")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/Temp-Sensor_DS18S20Z_")(options "")(descr ""))
 )
