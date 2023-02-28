@@ -12,4 +12,5 @@
   (lib (name "NEW_Inductor_47uH")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/NEW_Inductor_47uH")(options "")(descr ""))
   (lib (name "SS34 LATEst")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/SS34 LATEst")(options "")(descr ""))
   (lib (name "Temp-Sensor_DS18S20Z_")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/Temp-Sensor_DS18S20Z_")(options "")(descr ""))
+  (lib (name "New_BSC_Mosfets")(type "KiCad")(uri "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/New_BSC_Mosfets")(options "")(descr ""))
 )
