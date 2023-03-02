@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TPS54260DGQR
-D 3.5V to 60V INPUT, 2.5A, STEP DOWN CONVERTER WITH ECO-MODE
-K
-F http://www.ti.com/lit/gpn/TPS54260
-$ENDCMP
-#
-#End Doc Library

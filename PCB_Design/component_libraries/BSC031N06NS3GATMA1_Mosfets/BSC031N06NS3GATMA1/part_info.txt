@@ -1,9 +1,0 @@
-Manufacturer=Infineon
-PartNumber=BSC031N06NS3GATMA1
-PartCategory=MOSFET (N-Channel)
-PackageCategory=Other
-PinCount=8
-Version=1.5
-Released=2018-09-09 10:33:10
-Downloaded=2023-02-03 18:35:16
-3D=Y

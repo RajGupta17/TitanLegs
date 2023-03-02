@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=TPS54260DGQR
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline Packages
-PinCount=11
-Version=5.1
-Released=2017-01-12 12:59:53
-Downloaded=2023-02-05 15:36:57
-3D=Y

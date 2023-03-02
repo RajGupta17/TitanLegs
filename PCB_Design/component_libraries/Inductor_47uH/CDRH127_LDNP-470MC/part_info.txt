@@ -1,9 +1,0 @@
-Manufacturer=Sumida
-PartNumber=CDRH127/LDNP-470MC
-PartCategory=Inductor
-PackageCategory=Inductors Precision Moulded
-PinCount=2
-Version=2.1
-Released=2019-03-03 05:05:31
-Downloaded=2023-02-10 12:07:01
-3D=Y
