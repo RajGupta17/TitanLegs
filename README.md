@@ -40,4 +40,4 @@ TitanLegs is a 4 legged Quadruped robot which requires BLDC motors to actuate. A
 
 ## Mentor
 
-[Chinmay Lonkar](https://github.com/ChinmayLonkar)
+* [Chinmay Lonkar](https://github.com/ChinmayLonkar)
