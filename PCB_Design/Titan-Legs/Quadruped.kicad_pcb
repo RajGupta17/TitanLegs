@@ -58,7 +58,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (grid_origin 71.17 135.95)
+    (grid_origin 131.57 116.25)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -311,7 +311,7 @@
       (net 36 "/DTR") (pinfunction "DTR") (pintype "passive") (tstamp d120fa76-37e9-4a8d-b7d1-ab28a5b1d265))
     (pad "29" smd rect locked (at 0 0) (size 3.15 3.15) (layers "F.Cu" "F.Mask")
       (net 2 "GND") (pinfunction "EPAD") (pintype "passive") (tstamp 17e1037a-7e45-40cc-ad72-437503a96e9c))
-    (model "${KIPRJMOD}/component_libraries/CP2102/QFN28_5X5_SIL.step"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/CP2102/QFN28_5X5_SIL.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -720,12 +720,7 @@
       (net 78 "unconnected-(IC3-Pad48)") (pinfunction "NSHDN") (pintype "passive+no_connect") (tstamp d2741543-1488-42be-878d-9be0a5735217))
     (pad "49" smd rect locked (at 0 0) (size 5.25 5.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "THERMAL_PAD") (pintype "passive") (tstamp 1a1cbba2-98e5-46a9-9cef-76395f16d2f2))
-    (model "DRV8323RSRGZT.stp"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "${KIPRJMOD}/component_libraries/DRV8323RS/DRV8323RSRGZT.stp"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/DRV8323RS/DRV8323RSRGZT.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -810,15 +805,10 @@
       (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp 58d2fcf0-acea-42fb-a824-6d7696d6450d))
     (pad "2" smd rect locked (at 2.075 0 180) (size 0.95 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "/EN") (pinfunction "2") (pintype "passive") (tstamp 750c3d84-6921-44c9-a92c-fdef37aef429))
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/SW_TL1015AF160QG/TL1015AF160QG.step"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/SW_TL1015AF160QG/TL1015AF160QG.step"
       (offset (xyz 2 -1.5 -0.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz -180 180 -90))
-    )
-    (model "${KIPRJMOD}/component_libraries/SW_TL1015AF160QG/TL1015AF160QG.step"
-      (offset (xyz -2 1.5 -1))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -963,17 +953,7 @@
       (net 53 "/DRV8323/MOTOR_B") (pinfunction "D_3") (pintype "passive") (tstamp 82ef15e0-6a09-42f6-8669-57502640602e))
     (pad "8" smd rect locked (at -3.135 2) (size 0.5 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 53 "/DRV8323/MOTOR_B") (pinfunction "D_4") (pintype "passive") (tstamp 5be7d091-fe30-493d-b953-41c22471a852))
-    (model "BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0.3300000082 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
-    )
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1/3D/BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 -90))
-    )
-    (model "${KIPRJMOD}/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -2157,7 +2137,7 @@
       (net 2 "GND") (tstamp a9a2ddcd-19ee-482d-bf4f-8719bf069bd4))
     (pad "15" thru_hole circle locked (at -0.45 0.6) (size 0.4 0.4) (drill 0.2) (layers *.Cu) (tstamp 25255d8c-fa15-4b83-bbb8-5566e33b357e))
     (pad "16" thru_hole circle locked (at 0.45 0.6) (size 0.4 0.4) (drill 0.2) (layers *.Cu) (tstamp 9bc3b081-ecf4-4b87-bcdf-f84e06446ab1))
-    (model "${KIPRJMOD}/component_libraries/Buck Converter/TPS54260DGQR.step"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/Buck Converter/TPS54260DGQR.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2537,17 +2517,7 @@
         )
       )
     )
-    (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/ESP32-S3_NEW/ESP32-S3-WROOM-1.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-    (model "${KIPRJMOD}/component_libraries/ESP32-S3_NEW/ESP32-S3-WROOM-1.step"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/ESP32-S3_NEW/ESP32-S3-WROOM-1.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2648,17 +2618,7 @@
       (net 6 "VM") (pinfunction "D_3") (pintype "passive") (tstamp 98bf2b52-a338-45c8-bf69-b2ea55e847b6))
     (pad "8" smd rect locked (at -3.135 2 180) (size 0.5 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "VM") (pinfunction "D_4") (pintype "passive") (tstamp df903791-23be-4201-94c3-6e29f7a7d8bd))
-    (model "BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0.3300000082 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
-    )
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1/3D/BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 -90))
-    )
-    (model "${KIPRJMOD}/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -2775,12 +2735,7 @@
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 65ce1407-a4bd-416d-b824-3f68a636bb26))
     (pad "S4" thru_hole oval locked (at 4.32 0 90) (size 1.05 2.1) (drill oval 0.65 1.25) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 80940937-dbff-412f-8c12-348af816e6f2))
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/usb c/TYPE-C-31-M-12.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-    (model "${KIPRJMOD}/component_libraries/usb c/TYPE-C-31-M-12.step"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/usb c/TYPE-C-31-M-12.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2927,17 +2882,7 @@
       (net 48 "/DRV8323/MOTOR_A") (pinfunction "D_3") (pintype "passive") (tstamp 432d1e04-b1a2-40e0-a0c2-7d90b02a155b))
     (pad "8" smd rect locked (at -3.135 2) (size 0.5 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 48 "/DRV8323/MOTOR_A") (pinfunction "D_4") (pintype "passive") (tstamp be677763-a009-488b-96d0-af57c95d15b9))
-    (model "BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0.3300000082 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
-    )
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1/3D/BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 -90))
-    )
-    (model "${KIPRJMOD}/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -3229,13 +3174,8 @@
       (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp a26c8293-36f6-4ea8-abdb-10a12e03c61a))
     (pad "2" smd rect locked (at 2.075 0 180) (size 0.95 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 87 "/BOOT") (pinfunction "2") (pintype "passive") (tstamp 16db2c67-a328-4f0e-887e-a8798a40a70b))
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/SW_TL1015AF160QG/TL1015AF160QG.step"
-      (offset (xyz -2.5 1.5 -0.5))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
-    )
-    (model "${KIPRJMOD}/component_libraries/SW_TL1015AF160QG/TL1015AF160QG.step"
-      (offset (xyz -2.5 1.5 -1))
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/SW_TL1015AF160QG/TL1015AF160QG.step"
+      (offset (xyz -2 1.5 -0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
@@ -3335,17 +3275,7 @@
       (net 6 "VM") (pinfunction "D_3") (pintype "passive") (tstamp b84443db-6ce4-4a91-89d5-1cb877aabf79))
     (pad "8" smd rect locked (at -3.135 2 180) (size 0.5 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "VM") (pinfunction "D_4") (pintype "passive") (tstamp 0156ff17-1341-459f-aeef-7a640f439c59))
-    (model "BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0.3300000082 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
-    )
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1/3D/BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 -90))
-    )
-    (model "${KIPRJMOD}/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -3446,17 +3376,7 @@
       (net 6 "VM") (pinfunction "D_3") (pintype "passive") (tstamp 03591c8a-fc53-4b64-8475-4c7eeb7f05f3))
     (pad "8" smd rect locked (at -3.135 2 180) (size 0.5 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "VM") (pinfunction "D_4") (pintype "passive") (tstamp 0ae38544-889a-4ef4-bc49-b6ea550e4a3b))
-    (model "BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0.3300000082 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
-    )
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1/3D/BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 -90))
-    )
-    (model "${KIPRJMOD}/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -4140,7 +4060,7 @@
       (net 83 "/CAN_BUS_IC/CANH") (pinfunction "CANH") (pintype "output") (tstamp 73abf7af-35e0-4b97-ab88-faff761405f0))
     (pad "8" smd roundrect locked (at 2.47 -1.905 270) (size 1.97 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07)
       (net 88 "/IO35") (pinfunction "RS") (pintype "input") (tstamp 3cfecf9e-9d20-42e9-9b6c-bf8f1779807c))
-    (model "${KIPRJMOD}/component_libraries/CAN-BUS-IC/SN65HVD230DR.step"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/CAN-BUS-IC/SN65HVD230DR.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4301,12 +4221,7 @@
     (pad "6" smd roundrect locked (at 2.455 0.635 90) (size 1.9 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 908c3243-c84e-46a0-bde7-76a8818ac455))
     (pad "7" smd roundrect locked (at 2.455 -0.635 90) (size 1.9 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 1e3d38ed-3932-4e0b-856c-073818116fc0))
     (pad "8" smd roundrect locked (at 2.455 -1.905 90) (size 1.9 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 060c7fb7-3848-4c21-901a-d27e6e05ed69))
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/Temp-Sensor_DS18S20Z_/DS18S20Z_.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-    (model "${KIPRJMOD}/component_libraries/Temp-Sensor_DS18S20Z_/DS18S20Z_.step"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/Temp-Sensor_DS18S20Z_/DS18S20Z_.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4365,17 +4280,7 @@
       (net 56 "/DRV8323/MOTOR_C") (pinfunction "D_3") (pintype "passive") (tstamp 8143bb74-0fa6-4c75-8c58-9585e5b12666))
     (pad "8" smd rect locked (at -3.135 2) (size 0.5 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 56 "/DRV8323/MOTOR_C") (pinfunction "D_4") (pintype "passive") (tstamp 17e7e982-2d24-4a3c-856d-96c7ca1e2edc))
-    (model "BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0.3300000082 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
-    )
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1/3D/BSC031N06NS3GATMA1.stp"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 -90))
-    )
-    (model "${KIPRJMOD}/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/BSC031N06NS3GATMA1_Mosfets/BSC031N06NS3GATMA1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -6517,17 +6422,7 @@
     (pad "3" smd roundrect locked (at -3.345 -2.29) (size 1.31 0.93) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.07)
       (net 12 "VBUS") (pinfunction "VIN") (pintype "input") (tstamp be78998e-97ad-4df3-9fcb-72b0aaefbf3b))
     (pad "4" smd roundrect locked (at 3.345 0) (size 1.31 3.24) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.24) (tstamp d61b1bc9-e554-43aa-aefb-0683af834558))
-    (model "/home/raj-zephyrus-g15/TitanLegs/PCB_Design/component_libraries/AMS1117-3.3/AMS1117-3.3.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-    (model "${KIPRJMOD}/component_libraries/AMS1117-3.3/AMS1117-3.3.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-    (model "/home/raj-zephyrus-g15/Desktop/TL_test/PCB_Design/component_libraries/AMS1117-3.3/AMS1117-3.3.step"
+    (model "/home/raj-zephyrus-g15/Desktop/TitanLegs/PCB_Design/component_libraries/AMS1117-3.3/AMS1117-3.3.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
